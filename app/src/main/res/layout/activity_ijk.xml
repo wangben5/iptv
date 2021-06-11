@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:focusableInTouchMode="false"
+    android:id="@+id/Rl"
+    android:focusable="false"
+    android:layout_height="wrap_content">
+   <com.shadt.iptv_qx.widget.media.IjkVideoView
+       android:layout_width="match_parent"
+       android:id="@+id/live_videoView"
+       android:layout_height="match_parent"/>
+
+    <include layout="@layout/view_controller"
+        android:visibility="invisible"
+        />
+
+    <include
+        android:id="@+id/ll_loading"
+        layout="@layout/loading" />
+ </RelativeLayout>

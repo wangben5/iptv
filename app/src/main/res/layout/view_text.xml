@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+        <com.shadt.iptv_qx.widget.ScrollTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/h_30"
+            android:text="撒大撒撒大撒的啥借口回复的就看啥尽快发货的数据库回复健康大厦尽快发货的数据库"/>
+</LinearLayout>

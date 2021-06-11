@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/vp_main_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <ImageView
+        android:layout_width="match_parent"
+         android:src="@drawable/bg"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_bg"/>
+
+    <com.open.androidtvwidget.view.SmoothHorizontalScrollView
+        android:id="@+id/test_hscroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <com.open.androidtvwidget.view.FrameMainLayout
+            android:id="@+id/page1_main_lay"
+            android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+        </com.open.androidtvwidget.view.FrameMainLayout>
+
+    </com.open.androidtvwidget.view.SmoothHorizontalScrollView>
+
+
+
+
+
+    <com.open.androidtvwidget.view.MainUpView
+        android:id="@+id/mainUpView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/AVload"
+        android:layout_width="120dp"
+        android:layout_centerInParent="true"
+        android:layout_height="120dp"
+        style="@style/AVLoadingIndicatorView.Large"
+        />
+</RelativeLayout>

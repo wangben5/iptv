@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+	 >
+
+	<item  android:state_focused="true"  >   <!-- 按钮未点击-->
+ 		<shape >
+
+ 			<solid   android:color="@color/red" /> <!-- 填充的颜色：这里设置背景透明 -->
+			<corners android:radius="50dp" />
+		</shape>
+	</item>
+
+	<item  android:state_focused="false"  >  <!-- 按钮选中状态-->
+		<shape >
+ 			<solid   android:color="@color/transparent" /> <!-- 填充的颜色：这里设置背景透明 -->
+			<corners android:radius="50dp" />
+		</shape>
+	</item>
+</selector>

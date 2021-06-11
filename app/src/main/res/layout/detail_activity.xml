@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/page_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:clipChildren="false"
+    android:background="@drawable/bg"
+    android:focusable="false"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+         android:textSize="40sp" />
+
+
+    <com.shadt.iptv_qx.widget.RecyclerCoverFlow
+        android:id="@+id/recycler_coverflow"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:layout_weight="2.5" />
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="3"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+         android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/tv_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:maxLines="8"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:lineSpacingExtra="3dp"
+            android:ellipsize="middle"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/tv_shenglv"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:visibility="gone"
+            android:gravity="center"
+            android:lineSpacingExtra="3dp"
+            android:text="......"
+            android:ellipsize="middle"/>
+     </LinearLayout>
+</LinearLayout>

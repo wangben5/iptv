@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center_vertical"
+    android:padding="1dp"
+    android:background="@color/transparent"
+    android:orientation="horizontal">
+
+
+
+    <com.shadt.iptv_qx.widget.media.IjkVideoView
+        android:id="@+id/live_videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp" />
+
+    <include
+        android:id="@+id/ll_loading"
+        layout="@layout/view_video_loading" />
+
+
+    <include
+        layout="@layout/view_video_controller"
+        android:visibility="invisible" />
+    <RelativeLayout
+        android:id="@+id/rela_bottom_tv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+         android:background="@color/gray"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+        <TextView
+            android:id="@+id/tv_bottom_title"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:text=""
+            android:textColor="@color/white"
+              />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
