@@ -1,0 +1,4 @@
+include ':tv-widget'
+include ':tv-tablayout'
+include ':library'
+include ':app', ':androidtvwidget'

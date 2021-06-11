@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shanxi_iptv.iml" filepath="$PROJECT_DIR$/.idea/modules/shanxi_iptv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidtvwidget/shanxi_iptv.androidtvwidget.iml" filepath="$PROJECT_DIR$/.idea/modules/androidtvwidget/shanxi_iptv.androidtvwidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/shanxi_iptv.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/shanxi_iptv.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/shanxi_iptv.library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/shanxi_iptv.library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tv-tablayout/shanxi_iptv.tv-tablayout.iml" filepath="$PROJECT_DIR$/.idea/modules/tv-tablayout/shanxi_iptv.tv-tablayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tv-widget/shanxi_iptv.tv-widget.iml" filepath="$PROJECT_DIR$/.idea/modules/tv-widget/shanxi_iptv.tv-widget.iml" />
+    </modules>
+  </component>
+</project>
